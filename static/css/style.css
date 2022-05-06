@@ -1,0 +1,17 @@
+table tr td {
+  height: 50px;
+  width: 50px;
+}
+
+.bg-color1 {
+  background-color: red;
+}
+.bg-color2 {
+  background-color: aqua;
+}
+.bg-color3 {
+  background-color: pink;
+}
+.bg-color4 {
+  background-color: yellow;
+}
