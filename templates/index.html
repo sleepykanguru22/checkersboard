@@ -15,14 +15,14 @@
       {%for i in range(4):%}
       <tr>
         {%for j in range(4)%}
-        <td class="bg-color{{random_number}}"></td>
-        <td class="bg-color{{random_number}}"></td>
+        <td class="bg-color{{random_number[j]}}"></td>
+        <td class="bg-color{{random_number[j]+1}}"></td>
         {%endfor%}
       </tr>
       <tr>
         {%for j in range(4)%}
-        <td class="bg-color{{random_number}}"></td>
-        <td class="bg-color{{random_number}}"></td>
+        <td class="bg-color{{random_number[j]}}"></td>
+        <td class="bg-color{{random_number[j]-1}}"></td>
         {%endfor%}
       </tr>
       {%endfor%}

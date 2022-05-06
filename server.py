@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-import random
+
 app = Flask (__name__)
 @app.route('/')          # The "@" decorator associates this route with the function immediately following
 def random_color():
